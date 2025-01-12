@@ -27,7 +27,7 @@ namespace Titanium.Web.Proxy.Network.Certificate;
 /// </summary>
 internal class BcCertificateMaker : ICertificateMaker
 {
-    private const int CertificateGraceDays = 366;
+    private const int CertificateGraceDays = 1;
 
     // The FriendlyName value cannot be set on Unix.
     // Set this flag to true when exception detected to avoid further exceptions

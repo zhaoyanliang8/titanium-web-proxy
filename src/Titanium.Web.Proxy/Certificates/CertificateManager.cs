@@ -202,7 +202,7 @@ public sealed class CertificateManager : IDisposable
     ///     Number of Days generated HTTPS certificates are valid for.
     ///     Maximum allowed on iOS 13 is 825 days and it is the default.
     /// </summary>
-    public int CertificateValidDays { get; set; } = 825;
+    public int CertificateValidDays { get; set; } = 365;
 
     /// <summary>
     ///     Name of the root certificate issuer.
